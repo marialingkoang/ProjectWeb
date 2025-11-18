@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>FILKOM Event — Modern</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="bg-gradient">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark nav-glass">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.rara.html"><span class="text-accent">FILKOM Event</span></a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.rara.html">Beranda</a></li>
+          <li class="nav-item"><a class="nav-link" href="register.rara.html">Daftar</a></li>
+          <li class="nav-item"><a class="nav-link" href="participan.rara.html">Peserta</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero">
+    <div class="hero-overlay"></div>
+
+    <div class="container hero-content text-center">
+      <h1 class="display-5 fw-bold">Pendaftaran Mahasiswa — Event FILKOM</h1>
+      <p class="lead text-muted mb-4">Workshop • Seminar • Kompetisi — Gabung sekarang!</p>
+
+      <div class="d-flex justify-content-center gap-3">
+        <a class="btn btn-primary btn-glow btn-lg" href="register.rara.html">Daftar Sekarang</a>
+        <a class="btn btn-primary btn-glow btn-lg" href="participan.rara.html">Lihat Peserta</a>
+        <a class="btn btn-primary btn-glow btn-lg" href="galery.html">Buka Gallery</a>
+      </div>
+
+      <!-- Stats -->
+      <div class="hero-stats mt-5">
+        <div class="stat-card">
+          <h3 id="statCount">0</h3>
+          <small>Peserta Terdaftar</small>
+        </div>
+        <div class="stat-card">
+          <h3>12</h3>
+          <small>Workshop</small>
+        </div>
+        <div class="stat-card">
+          <h3>5</h3>
+          <small>Keynote Speaker</small>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Features -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row g-4">
+
+        <!-- Card 1 -->
+        <div class="col-md-4">
+          <div class="card glass hover-rise">
+            <div class="card-body">
+              <h5 class="card-title">Workshop Web</h5>
+              <p class="card-text text-muted">Belajar membuat web modern.</p>
+              <a href="register.rara.html" class="btn btn-sm btn-primary">Daftar Workshop</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-4">
+          <div class="card glass hover-rise">
+            <div class="card-body">
+              <h5 class="card-title">Seminar Teknologi</h5>
+              <p class="card-text text-muted">Pembicara profesional & insight industri.</p>
+              <a href="register.rara.html" class="btn btn-sm btn-accent">Ikut Seminar</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-4">
+          <div class="card glass hover-rise">
+            <div class="card-body">
+              <h5 class="card-title">Hackathon</h5>
+              <p class="card-text text-muted">Kompetisi 24 jam dengan hadiah menarik.</p>
+              <a href="register.rara.html" class="btn btn-sm btn-primary">Daftar Tim</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="py-5 bg-soft">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center mb-3">
+        <h3 class="mb-0">Gallery Foto</h3>
+        <a href="galery.html" class="btn btn-sm btn-accent">Lihat Semua</a>
+      </div>
+      <div class="row g-3" id="galleryGrid"></div>
+    </div>
+  </section>
+
+  <footer class="py-4 text-center text-white">
+    <div class="container">
+      <small>&copy; FILKOM Event — Modern Theme</small>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.rara.js"></script>
+</body>
+
+</html>
