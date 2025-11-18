@@ -29,8 +29,6 @@
     <div class="col-lg-7">
       <div class="card glass p-4 hover-rise">
         <h3>Form Pendaftaran Mahasiswa</h3>
-        <p class="text-muted">Data akan tersimpan di browser (localStorage). Anda bisa export CSV di halaman Peserta.</p>
-
         <form id="regForm" class="needs-validation" novalidate>
           <div class="row g-3">
             <div class="col-md-6">
@@ -49,10 +47,7 @@
               <label class="form-label">Fakultas</label>
               <select id="faculty" class="form-select form-select-lg" required>
                 <option value="">Pilih...</option>
-                <option>Teknik</option>
-                <option>Sistem Informasi</option>
-                <option>Informatika</option>
-                <option>Teknik Informasi</option>
+                <option>Ilmu Komputer</option>
               </select>
               <div class="invalid-feedback">Pilih fakultas.</div>
             </div>
@@ -60,6 +55,10 @@
             <div class="col-md-6">
               <label class="form-label">Program Studi</label>
               <input id="major" class="form-control form-control-lg" required>
+              <option value="">Pilih...</option>
+                <option>Informatika</option>
+                <option>Sistem Informasi</option>
+                <option>Teknologi Informasi</option>
               <div class="invalid-feedback">Isi program studi.</div>
             </div>
 
