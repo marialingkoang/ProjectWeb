@@ -209,7 +209,8 @@ if (clearBtn) {
         <td>${item.nim}</td>
         <td>${item.faculty}</td>
         <td>${item.major}</td>
-        <td>${item.event}</td>
+        <td>${item.baju}</td>
+        <td>${item.makanan}</td>
         <td>${new Date(item.ts).toLocaleString()}</td>
       `;
 
