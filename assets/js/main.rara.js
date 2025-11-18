@@ -90,7 +90,8 @@ document.addEventListener("DOMContentLoaded", () => {
         major: document.getElementById("major").value,
         email: document.getElementById("email").value,
         phone: document.getElementById("phone").value,
-        event: eventInput.value,
+        baju: document.getElementById("baju").value,
+        makanan: document.getElementById("makanan").value,
         note: noteInput.value,
         photo: pvImg.src,
         ts: Date.now()
