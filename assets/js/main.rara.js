@@ -106,7 +106,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <b>NIM:</b> ${data.nim}<br>
         <b>Email:</b> ${data.email}<br>
         <b>Baju:</b> ${data.baju}<br>
-        <b>makanan</b ${data.makanan}<br>
+        <b>makanan:</b> ${data.makanan}<br>
       `;
 
       const modal = new bootstrap.Modal(document.getElementById("submitModal"));
