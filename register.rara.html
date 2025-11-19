@@ -125,6 +125,30 @@
         </form>
       </div>
     </div>
+
+    <div class="col-lg-5">
+      <div class="card glass p-4 hover-rise">
+        <h5 class="mb-3">Preview Pendaftaran</h5>
+        <div id="previewCard" class="d-flex gap-3 align-items-center">
+          <img id="pvImg" src="https://source.unsplash.com/200x200/?student" class="rounded preview-img">
+          <div>
+            <h6 id="pvName">Nama</h6>
+            <small id="pvEvent" class="text-muted">Event</small>
+            <p id="pvNote" class="mt-2 text-muted small">Catatan</p>
+          </div>
+        </div>
+
+        <hr>
+
+        <h6 class="mt-3">Fitur Cepat</h6>
+        <div class="d-grid gap-2">
+          <button class="btn btn-sm btn-outline-light" onclick="fillDemo()">Isi Demo</button>
+          <button class="btn btn-sm btn-primary" onclick="saveDemoParticipant()">Simpan Demo</button>
+          <button class="btn btn-sm btn-danger" onclick="clearAllParticipants()">Hapus Semua (Local)</button>
+        </div>
+      </div>
+    </div>
+    
   </div>
 </main>
 
