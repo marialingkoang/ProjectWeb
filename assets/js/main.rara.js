@@ -104,8 +104,9 @@ document.addEventListener("DOMContentLoaded", () => {
       document.getElementById("submitSummary").innerHTML = `
         <b>Nama:</b> ${data.name}<br>
         <b>NIM:</b> ${data.nim}<br>
-        <b>Event:</b> ${data.event}<br>
         <b>Email:</b> ${data.email}<br>
+        <b>Baju:</b> ${data.baju}<br>
+        <b>Pakaian</b ${data.pakaian}<br>
       `;
 
       const modal = new bootstrap.Modal(document.getElementById("submitModal"));
